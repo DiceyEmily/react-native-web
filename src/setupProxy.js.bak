@@ -1,0 +1,97 @@
+const { createProxyMiddleware } = require('http-proxy-middleware');
+const { url } = require('./config/url');
+const path = require('path')
+var SocksProxyAgent = require('socks-proxy-agent');
+
+/**
+ * 从.env文件中读取host配置
+ */
+let envFile = process.env.ENVFILE;
+const envFilePath = path.resolve(__dirname, "../", envFile);
+const _dotenv = require('dotenv');
+const env = (0, _dotenv.config)({ path: envFilePath }).parsed;
+
+
+const host_url = env.HOST_URL;
+
+console.log("host_url:", host_url)
+
+// const fileHost = env.UPLOAD_URL;
+
+//默认代理
+let proxy = "socks5://10.0.0.154:8000"
+
+var agent = new SocksProxyAgent(proxy);
+
+const http = require('http');
+const httpProxy = require('http-proxy');
+
+
+let needProxy = false;
+// if (host_url.indexOf("10.0.0") >= 0 || host_url.indexOf("10.10.10") >= 0) {
+//     //不适用socks5代理
+//     needProxy = false;
+// }
+
+
+
+const myLocalProxy = httpProxy.createProxyServer({});
+
+
+
+
+const myServer = http.createServer(function (req, res) {
+
+    // change request before it's being sent to target
+    // delete req.headers.origin;
+    if (needProxy) {
+        let isVacation = req.url?.indexOf?.(url.vacation) >= 0
+        myLocalProxy.web(req, res, {
+            // instruct 'http-proxy' to forward this request to 'target'
+            // using 'agent' to pass through corporate proxy
+            target: isVacation ? host_url.replace("/oa/mobile/", "") : host_url,
+            changeOrigin: true,
+            agent: agent,
+            toProxy: true,
+        });
+
+        myLocalProxy.on("error", err => {
+            console.error(err);
+        })
+
+    }
+
+});
+
+let proxyPort = 8000 + (Math.random() * 2000) >> 0
+
+myServer.listen(proxyPort);
+
+let target = host_url;
+
+if (needProxy) {
+    target = "http://127.0.0.1:" + proxyPort;
+}
+
+
+
+//react http 中间件
+module.exports = function (app) {
+    //代理本地请求至远程服务器,防止跨域问题
+
+
+
+    app.use(
+        ['/api'],
+        createProxyMiddleware({
+            target: host_url,
+            changeOrigin: true,
+            secure: false,//不校验证书
+            onProxyReq: proxyReq => {
+                proxyReq.removeHeader("referer");
+            },
+        })
+    )
+
+
+};

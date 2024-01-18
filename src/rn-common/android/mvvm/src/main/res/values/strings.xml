@@ -1,0 +1,26 @@
+<resources>
+    <!--自定义名称-->
+    <string name="app_name">公共模块</string>
+    <!--网络请求提示信息-->
+    <string name="loading">加载中…</string>
+    <string name="load_success">请求成功</string>
+    <string name="load_failed">请求失败，稍后再试！</string>
+    <string name="load_more_failed">请求失败，点我重试！</string>
+    <string name="load_end">没有更多数据！</string>
+    <string name="load_time_out">连接超时…</string>
+    <string name="network_out">网络异常！</string>
+
+    <string name="app_collapse">操作出现问题,请稍后重启!</string>
+    <string name="permission_denied">权限被拒绝,请前往 设置->应用 进行修改.</string>
+    <string name="common_empty_message">没有数据,试试下拉刷新.</string>
+    <string name="common_failed_message">请求失败,试试下拉刷新.</string>
+    <string name="common_no_message">没有更多数据了...</string>
+
+    <string name="common_token_overdue">请求数据失效，请重新登录！</string>
+    <string name="common_session_overdue">请求数据失效，请重新登录！</string>
+
+    <string name="common_network_unAvailable">"网络连接不可用"</string>
+
+    <string name="common_determine">确定</string>
+    <string name="common_cancel">取消</string>
+</resources>

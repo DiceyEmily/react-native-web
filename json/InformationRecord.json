@@ -1,0 +1,28 @@
+{
+    "code": "0",
+    "data": [
+        {
+            "sirId": 11,
+            "sitUuid": "111",
+            "sirUuid": "42A7C71033794BA0851872FE010209A72",
+            "informationTypeName": "公告2",
+            "content": "内容1"
+        },
+        {
+            "sirId": 12,
+            "sitUuid": "1111",
+            "sirUuid": "42A7C71033794BA0851872FE001209A72",
+            "informationTypeName": "公告1",
+            "content": "内容2"
+        },
+        {
+            "sirId": 13,
+            "sitUuid": "42A7C71033794BA0851872FE00209A72",
+            "sirUuid": "42A7C71033794BA0851872FE002019A72",
+            "informationTypeName": "公告",
+            "content": "内容3"
+        }
+    ],
+    "msg": "接口请求正确",
+    "total": 0
+}

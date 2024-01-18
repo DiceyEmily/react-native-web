@@ -1,0 +1,57 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdkVersion "$compilesdk_version".toInteger()
+    buildToolsVersion "$buildtools_version"
+
+    defaultConfig {
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+
+dependencies {
+
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation "androidx.core:core-ktx:$core"
+    implementation "androidx.appcompat:appcompat:$appcompat"
+    implementation "androidx.constraintlayout:constraintlayout:$constraint_layout"
+
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$viewmodel"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$viewmodel"
+
+    implementation "androidx.recyclerview:recyclerview:$recyclerView"
+    implementation "androidx.viewpager2:viewpager2:1.0.0"
+
+    implementation "com.billy.android:smart-swipe:$smart_swipe"
+
+    //mmkv安全加密组件
+    releaseCompileOnly "com.tencent:mmkv-static:$mmkv"
+    debugImplementation "com.tencent:mmkv-static:$mmkv"
+
+    //公共库
+    api 'cn.hutool:hutool-all:4.6.17'
+
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:$swiperefreshlayout"
+
+    implementation "com.google.code.gson:gson:$gson"
+    implementation("com.squareup.okhttp3:okhttp:$okhttp")
+
+}

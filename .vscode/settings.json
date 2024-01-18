@@ -1,0 +1,20 @@
+{
+  "files.exclude": {
+    "ios": true,
+    "android": true,
+    "node_modules": true,
+    // "build": true,
+    "public/static": true,
+    "src/rn-common/android": true,
+  },
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": [
+    //"source.organizeImports",
+    //"source.fixAll"
+  ],
+  "editor.gotoLocation.multipleImplementations": "goto"
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0085BD</color>
+    <color name="colorPrimaryDark">#0085BD</color>
+    <color name="colorPrimaryLite">#E8F4FF</color>
+    <!--透明-->
+    <color name="transparent">#00000000</color>
+    <color name="icon">#ddFFFFFF</color>
+    <color name="home_line">#DFDFDF</color>
+
+    <color name="grey">#888888</color>
+
+    <color name="black">#000000</color>
+    <!--有点透明 77看需求效果-->
+    <color name="translucent">#77000000</color>
+    <!--有点透明 77看需求效果-->
+    <color name="white">#ffffff</color>
+    <color name="translucent_white">#77ffffff</color>
+    <color name="translucent_white1">#55ffffff</color>
+    <color name="translucent_white2">#bbffffff</color>
+
+    <color name="secondary_text">#727272</color>
+    <color name="uncheck">#e1e1e1</color>
+    <color name="back_ground">#EAEEF1</color>
+    <color name="back_ground2">#F7F7F7</color>
+    <color name="gray_light">#F3F3F3</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="milk_gray">#636363</color>
+    <color name="light_black">#2D2D2D</color>
+
+    <!--标题、重要按钮等-->
+    <color name="one_title">#0785FD</color>
+    <color name="two_title">#0589FD</color>
+    <color name="three_title">#01ACFC</color>
+    <color name="four_title">#65D5FE</color>
+    <color name="five_title">#E8F0FB</color>
+
+    <!--文件紧急程度-->
+    <color name="one_doc">#f51931</color>
+    <color name="two_doc">#f65667</color>
+    <color name="three_doc">#fb6930</color>
+    <color name="four_doc">#ffe27c</color>
+    <color name="five_doc">#cccccc</color>
+
+    <!--分割线/背景-->
+    <color name="one_line">#f46060</color>
+    <color name="two_line">#cccccc</color>
+    <color name="three_line">#e5e5e5</color>
+    <color name="four_line">#f1f2f3</color>
+    <color name="five_line">#d0d0d0</color>
+    <color name="six_line">#F2F2F2</color>
+    <color name="seven_line">#FDEDED</color>
+
+    <!--文字颜色-->
+    <color name="zero_text">#212121</color>
+    <color name="one_text">#333333</color>
+    <color name="two_text">#666666</color>
+    <color name="three_text">#999999</color>
+    <color name="four_text">#cccccc</color>
+    <color name="five_text">#FAFBFE</color>
+
+    <color name="white_trans1">#EEffffff</color>
+    <color name="white_trans2">#CCffffff</color>
+    <color name="white_trans_light">#22ffffff</color>
+
+    <color name="blueStart">#33CEFF</color>
+    <color name="blueEnd">#2929FF</color>
+
+    <color name="purpleStart">#FF5897</color>
+    <color name="purpleEnd">#3029FF</color>
+
+    <color name="textRed">#fe6363</color>
+    <color name="purpleHover">#972AAA</color>
+
+    <color name="grey2">#dddddd</color>
+    <color name="greyLight">#f7f9ff</color>
+
+    <color name="common_swipe">#11000000</color>
+    <color name="transparent_100">#00ffffff</color>
+    <color name="transparent_dark">#30000000</color>
+    <color name="transparent_grey">#30999999</color>
+    <color name="transparent_white">#30ffffff</color>
+    <color name="transparent_white2">#aaffffff</color>
+
+    <color name="black_font_color">#181818</color>
+</resources>

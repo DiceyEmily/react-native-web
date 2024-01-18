@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--注意命名统一规则-->
+<resources>
+    <!--设置字体大小时用sp-->
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_26">26sp</dimen>
+    <dimen name="text_size_28">28sp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+    <dimen name="text_size_32">32sp</dimen>
+    <dimen name="text_size_34">34sp</dimen>
+    <dimen name="text_size_36">36sp</dimen>
+    <dimen name="text_size_38">38sp</dimen>
+    <dimen name="text_size_40">40sp</dimen>
+
+    <!--设置view组件的默认宽x高y时用dp(下面的分辨率找不到会用默认的这个)-->
+    <!--宽x-->
+    <dimen name="x1">1.0dp</dimen>
+    <dimen name="x2">2.0dp</dimen>
+    <dimen name="x3">3.0dp</dimen>
+    <dimen name="x4">4.0dp</dimen>
+    <dimen name="x5">5.0dp</dimen>
+    <dimen name="x6">6.0dp</dimen>
+    <dimen name="x7">7.0dp</dimen>
+    <dimen name="x8">8.0dp</dimen>
+    <dimen name="x9">9.0dp</dimen>
+    <dimen name="x10">10.0dp</dimen>
+    <dimen name="x11">11.0dp</dimen>
+    <dimen name="x12">12.0dp</dimen>
+    <dimen name="x13">13.0dp</dimen>
+    <dimen name="x14">14.0dp</dimen>
+    <dimen name="x15">15.0dp</dimen>
+    <dimen name="x16">16.0dp</dimen>
+    <dimen name="x17">17.0dp</dimen>
+    <dimen name="x18">18.0dp</dimen>
+    <dimen name="x19">19.0dp</dimen>
+    <dimen name="x20">20.0dp</dimen>
+    <dimen name="x21">21.0dp</dimen>
+    <dimen name="x22">22.0dp</dimen>
+    <dimen name="x23">23.0dp</dimen>
+    <dimen name="x24">24.0dp</dimen>
+    <dimen name="x25">25.0dp</dimen>
+    <dimen name="x26">26.0dp</dimen>
+    <dimen name="x27">27.0dp</dimen>
+    <dimen name="x28">28.0dp</dimen>
+    <dimen name="x29">29.0dp</dimen>
+    <dimen name="x30">30.0dp</dimen>
+    <dimen name="x31">31.0dp</dimen>
+    <dimen name="x32">32.0dp</dimen>
+    <dimen name="x33">33.0dp</dimen>
+    <dimen name="x34">34.0dp</dimen>
+    <dimen name="x35">35.0dp</dimen>
+    <dimen name="x36">36.0dp</dimen>
+    <dimen name="x37">37.0dp</dimen>
+    <dimen name="x38">38.0dp</dimen>
+    <dimen name="x39">39.0dp</dimen>
+    <dimen name="x40">40.0dp</dimen>
+
+</resources>

@@ -1,0 +1,117 @@
+{
+    "code": "0",
+    "data": [
+        {
+            "createTime": "2021-12-28 03:48:45",
+            "updateTime": "2021-12-28 03:48:45",
+            "pfmId": 1,
+            "pfmUuid": "44D87FD2389A493681A048AF3C3B234B",
+            "name": "我的作业",
+            "icon": "group1/M00/00/01/gQoK52HKiHaAbW3yAAAGXF-WRP8894.PNG",
+            "path": "",
+            "type": 7002,
+            "status": 9000
+        },
+        {
+            "createTime": "2021-12-28 03:49:19",
+            "updateTime": "2021-12-28 03:49:19",
+            "pfmId": 2,
+            "pfmUuid": "7B01A2E9F5FB4D01B0C330C03038894C",
+            "name": "我的课表",
+            "icon": "group1/M00/00/01/gQoK52HKiTeAASBxAAAGTEpJfUY269.PNG",
+            "path": "",
+            "type": 7002,
+            "status": 9000
+        },
+        {
+            "createTime": "2021-12-28 03:50:17",
+            "updateTime": "2021-12-28 03:50:17",
+            "pfmId": 3,
+            "pfmUuid": "3A19611FA4424C0EB38CC7D387EE9EAA",
+            "name": "成绩查询",
+            "icon": "group1/M00/00/01/gQoK52HKiWSACk7ZAAAFszxXFxM672.PNG",
+            "path": "",
+            "type": 7002,
+            "status": 9000
+        },
+        {
+            "createTime": "2021-12-28 03:50:44",
+            "updateTime": "2021-12-28 03:50:44",
+            "pfmId": 4,
+            "pfmUuid": "BE8BCB40E3B145D386C6288D8CBF7B3D",
+            "name": "学习资源",
+            "icon": "group1/M00/00/01/gQoK52HKiYyAf4LGAAAHU_gSj8k006.PNG",
+            "path": "",
+            "type": 7002,
+            "status": 9000
+        },
+        {
+            "createTime": "2021-12-28 03:51:42",
+            "updateTime": "2021-12-28 03:51:42",
+            "pfmId": 5,
+            "pfmUuid": "EDD774D96EA040438600A90D95FCB63B",
+            "name": "校园考勤",
+            "icon": "group1/M00/00/01/gQoK52HKicSAMN_jAAACnnPzdSs334.PNG",
+            "path": "",
+            "type": 7001,
+            "status": 9000
+        },
+        {
+            "createTime": "2021-12-28 03:52:19",
+            "updateTime": "2021-12-28 03:52:19",
+            "pfmId": 6,
+            "pfmUuid": "A4DD20719F804B0C8B3E952D8E858D06",
+            "name": "我要请假",
+            "icon": "group1/M00/00/01/gQoK52HKieGASQO6AAAGaUZJ0B4031.PNG",
+            "path": "",
+            "type": 7001,
+            "status": 9000
+        },
+        {
+            "createTime": "2021-12-28 03:52:48",
+            "updateTime": "2021-12-28 03:52:48",
+            "pfmId": 7,
+            "pfmUuid": "B3C077A491D04211B887C81976A50F04",
+            "name": "校园风采",
+            "icon": "group1/M00/00/01/gQoK52HKigCAG1xGAAAGwqgqAh8341.PNG",
+            "path": "",
+            "type": 7003,
+            "status": 9000
+        },
+        {
+            "createTime": "2021-12-28 03:53:26",
+            "updateTime": "2021-12-28 03:53:26",
+            "pfmId": 8,
+            "pfmUuid": "C5A9ED89686B4F7995BB9B328B40F8C7",
+            "name": "班级空间",
+            "icon": "group1/M00/00/01/gQoK52HKii2ATe6hAAAIgNSRz8I887.PNG",
+            "path": "",
+            "type": 7003,
+            "status": 9000
+        },
+        {
+            "createTime": "2021-12-28 03:53:58",
+            "updateTime": "2021-12-28 03:53:58",
+            "pfmId": 9,
+            "pfmUuid": "1BF178FC4A3A4F1D98CA23AD86F2612F",
+            "name": "德育评价",
+            "icon": "group1/M00/00/01/gQoK52HKik-Aex4MAAAGTSZESZg489.PNG",
+            "path": "",
+            "type": 7003,
+            "status": 9000
+        },
+        {
+            "createTime": "2021-12-28 03:54:31",
+            "updateTime": "2021-12-28 03:54:31",
+            "pfmId": 10,
+            "pfmUuid": "7B36CC5AE93A44F789954831508A95C1",
+            "name": "校园食堂",
+            "icon": "group1/M00/00/01/gQoK52HKim6Ae7ZDAAAHgE_pCtA052.PNG",
+            "path": "",
+            "type": 7003,
+            "status": 9000
+        }
+    ],
+    "msg": "接口请求正确",
+    "total": 0
+}

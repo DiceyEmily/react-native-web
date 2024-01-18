@@ -1,0 +1,23 @@
+{
+    "code": "0",
+    "data": {
+        "puiId": "",
+        "puiUuid": "",
+        "username": "null",
+        "password": "null",
+        "email": "null",
+        "name": "null",
+        "phone": "null",
+        "gender": "null",
+        "birthday": "null",
+        "avatar": "null",
+        "avatarThumbnail": "null",
+        "identifyPhotos": "null",
+        "identifyPhotosThumbnail": "null",
+        "userStatus": "null",
+        "lastLoginIp": "null",
+        "lastLoginTime": "null"
+    },
+    "msg": "接口请求正确",
+    "total": 0
+}

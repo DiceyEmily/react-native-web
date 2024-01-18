@@ -1,0 +1,51 @@
+{
+    "code": "0",
+    "data": [
+        {
+            "sesId": 13,
+            "sesUuid": "AFA940F138144F80AA562EA530537690",
+            "ccUuid": "11120B1D22D34DD999613E9FCA834E1E",
+            "ccName": "物理",
+            "setUuid": "2030A74E1CFD4F5F8C15CB1E72F99ADA",
+            "setName": "模拟考2",
+            "score": 11.00,
+            "remark": "11",
+            "createDate": "2021-12-19"
+        },
+        {
+            "sesId": 14,
+            "sesUuid": "808DA2EB615644B492F752343039E18E",
+            "ccUuid": "A5C60FB1346441B8B2FDE0D3337D0B32C",
+            "ccName": "语文",
+            "setUuid": "2030A74E1CFD4F5F8C15CB1E72F99ADA",
+            "setName": "模拟考2",
+            "score": 12.00,
+            "remark": "12",
+            "createDate": "2021-12-19"
+        },
+        {
+            "sesId": 15,
+            "sesUuid": "B88A0DB1D5C94683B73C63D0522F78D7",
+            "ccUuid": "A5C60FB1346441B8B2FDE0D3337D0B32C",
+            "ccName": "语文",
+            "setUuid": "2030A74E1CFD4F5F8C15CB1E72F99ADA",
+            "setName": "模拟考2",
+            "score": 112.00,
+            "remark": "121",
+            "createDate": "2021-12-19"
+        },
+        {
+            "sesId": 16,
+            "sesUuid": "4052408AF2F742BCA7581E51FFE25DCF",
+            "ccUuid": "A5C60FB1346441B8B2FDE0D1D7D0B32C",
+            "ccName": "数学",
+            "setUuid": "2030A74E1CFD4F5F8C15CB1E72F99ADA",
+            "setName": "模拟考2",
+            "score": 200.00,
+            "remark": "12313",
+            "createDate": "2021-12-19"
+        }
+    ],
+    "msg": "接口请求正确",
+    "total": 4
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="num0">0</integer>
+    <integer name="num1">1</integer>
+    <integer name="num2">2</integer>
+    <integer name="num3">3</integer>
+    <integer name="num4">4</integer>
+    <integer name="num5">5</integer>
+    <integer name="num6">6</integer>
+    <integer name="num7">7</integer>
+    <integer name="num8">8</integer>
+    <integer name="num9">9</integer>
+    <integer name="num10">10</integer>
+    <integer name="num16">16</integer>
+    <integer name="num100">100</integer>
+
+</resources>

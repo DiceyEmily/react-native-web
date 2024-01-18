@@ -1,0 +1,37 @@
+{
+    "code": "0",
+    "data": [
+        {
+            "createTime": "2021-12-17 14:43:26",
+            "updateTime": "2021-12-17 14:43:28",
+            "paId": 9,
+            "paUuid": "672F424AE32C4875A74D896547111111",
+            "scUuid": "C72F424AE32C4875A74D896547D8B17D",
+            "name": "宣传一",
+            "pic": "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic49.nipic.com%2Ffile%2F20140929%2F8782804_175400173610_2.jpg&refer=http%3A%2F%2Fpic49.nipic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1642343526&t=9dceda180f81bd03ab2ae496007b319e",
+            "startTime": "2021-12-16T14:43:01.000+00:00",
+            "endTime": "2021-12-18T14:43:10.000+00:00",
+            "status": 9000,
+            "sort": 1,
+            "url": null,
+            "remark": "学校宣传信息"
+        },
+        {
+            "createTime": "2021-12-17 14:44:58",
+            "updateTime": "2021-12-17 14:44:59",
+            "paId": 10,
+            "paUuid": "672F424AE32C4875A74D896547222222",
+            "scUuid": "C72F424AE32C4875A74D896547D8B17D",
+            "name": "学校一",
+            "pic": "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.ibaotu.com%2Fspiders%2F25695-59a6241a7b890.jpg&refer=http%3A%2F%2Fpic.ibaotu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1642344266&t=8d915364c746db05b6aef29b1a45eaef",
+            "startTime": "2021-12-16T14:44:39.000+00:00",
+            "endTime": "2021-12-18T14:44:43.000+00:00",
+            "status": 9000,
+            "sort": 2,
+            "url": null,
+            "remark": null
+        }
+    ],
+    "msg": "接口请求正确",
+    "total": 0
+}

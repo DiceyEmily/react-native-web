@@ -1,0 +1,3 @@
+[submodule "src/rn-common"]
+	path = src/rn-common
+	url = ../rn-common.git

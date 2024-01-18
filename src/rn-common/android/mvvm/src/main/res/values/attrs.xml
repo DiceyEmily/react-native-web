@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NiceImageView">
+        <attr name="is_circle" format="boolean" />
+        <attr name="is_cover_src" format="boolean" />
+        <attr name="corner_radius" format="dimension" />
+        <attr name="corner_top_left_radius" format="dimension" />
+        <attr name="corner_top_right_radius" format="dimension" />
+        <attr name="corner_bottom_left_radius" format="dimension" />
+        <attr name="corner_bottom_right_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="inner_border_width" format="dimension" />
+        <attr name="inner_border_color" format="color" />
+        <attr name="mask_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ShadowView">
+        <attr name="android:foreground"/>
+        <attr name="shadowMargin" format="dimension"/>
+        <attr name="shadowMarginTop" format="dimension"/>
+        <attr name="shadowMarginLeft" format="dimension"/>
+        <attr name="shadowMarginRight" format="dimension"/>
+        <attr name="shadowMarginBottom" format="dimension"/>
+        <attr name="cornerRadius" format="dimension"/>
+        <attr name="cornerRadiusTL" format="dimension"/>
+        <attr name="cornerRadiusTR" format="dimension"/>
+        <attr name="cornerRadiusBL" format="dimension"/>
+        <attr name="cornerRadiusBR" format="dimension"/>
+        <attr name="foregroundColor" format="color"/>
+        <attr name="shadowColor" format="color"/>
+        <attr name="shadowDx" format="float"/>
+        <attr name="shadowDy" format="float"/>
+        <attr name="shadowRadius" format="dimension"/>
+        <attr name="backgroundColor" format="color"/>
+
+        <attr name="border" format="dimension"/>
+        <attr name="borderColor" format="color"/>
+        <attr name="borderLeft" format="color"/>
+        <attr name="borderTop" format="color"/>
+        <attr name="borderRight" format="color"/>
+        <attr name="borderBottom" format="color"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="TextCustom">
+        <!--<attr name="textSolidColor" format="color" />-->
+        <attr name="textStrokeColor" format="color" />
+        <attr name="textRadius" format="dimension" />
+        <attr name="textLeftTopRadius" format="dimension" />
+        <attr name="textLeftBottomRadius" format="dimension" />
+        <attr name="textRightTopRadius" format="dimension" />
+        <attr name="textRightBottomRadius" format="dimension" />
+        <attr name="textStrokeWidth" format="dimension" />
+        <attr name="textDrawable" format="reference" />
+        <attr name="textNormalTextColor" format="color" />
+        <attr name="textSelectedTextColor" format="color" />
+        <attr name="textNoLeftStroke" format="boolean"/>
+        <attr name="textNoRightStroke" format="boolean"/>
+        <attr name="textNoTopStroke" format="boolean"/>
+        <attr name="textNoBottomStroke" format="boolean"/>
+        <attr name="textPressedSolidColor" format="color"/>
+        <attr name="textNormalSolidColor" format="color"/>
+        <attr name="textIsSelected" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ShadowView_Layout">
+        <attr name="layout_gravity">
+            <flag name="top"
+                  value="0x30"/>
+            <flag name="bottom"
+                  value="0x50"/>
+            <flag name="left"
+                  value="0x03"/>
+            <flag name="right"
+                  value="0x05"/>
+            <flag name="center_vertical"
+                  value="0x10"/>
+            <flag name="fill_vertical"
+                  value="0x70"/>
+            <flag name="center_horizontal"
+                  value="0x01"/>
+            <flag name="fill_horizontal"
+                  value="0x07"/>
+            <flag name="center"
+                  value="0x11"/>
+            <flag name="fill"
+                  value="0x77"/>
+            <flag name="clip_vertical"
+                  value="0x80"/>
+            <flag name="clip_horizontal"
+                  value="0x08"/>
+            <flag name="start"
+                  value="0x00800003"/>
+            <flag name="end"
+                  value="0x00800005"/>
+        </attr>
+    </declare-styleable>
+</resources>

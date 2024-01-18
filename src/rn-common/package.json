@@ -1,0 +1,22 @@
+{
+  "name": "rn-common",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "mockjs": "^1.1.0",
+    "@types/mockjs": "^1.0.4",
+    "resize-observer-polyfill": "^1.5.1",
+    "react-photo-view": "^0.5.7",
+    "classnames": "^2.3.1",
+    "base64-js": "^1.5.1",
+    "comment-json": "^4.2.2",
+    "echarts": "^5.2.2",
+    "qrcode": "^1.5.0",
+    "xss": "^1.0.10",
+    "react-native-toast-notifications": "^3.2.3",
+    "@types/react-dom": "^17.0.2",
+    "socks-proxy-agent": "^6.1.1"
+  },
+  "devDependencies": {}
+}

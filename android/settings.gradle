@@ -1,0 +1,15 @@
+rootProject.name = "parent"
+include ':app'
+
+def rnCommon = '../src/rn-common/android/'
+
+include ':mvvm'
+project(':mvvm').projectDir = new File(rootProject.projectDir, rnCommon + 'mvvm')
+
+include ':native-mod'
+project(':native-mod').projectDir = new File(rootProject.projectDir, rnCommon + 'native-mod')
+
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+
+include ':react-native-image-crop-picker'
+project(':react-native-image-crop-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-crop-picker/android')

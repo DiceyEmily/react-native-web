@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_building">建设中</string>
+    <string name="ucrop_rotate">旋转</string>
+    <string name="ucrop_scale">缩放</string>
+</resources>

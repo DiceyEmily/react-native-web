@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.xixian.mod">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    
+    <application>
+
+        <service
+            android:name="net.xixian.util.DownloadService"
+            android:enabled="true"
+            android:exported="false" />
+
+
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="net.xixian.mod.MainActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity android:name=".QrActivity" />
+
+    </application>
+</manifest>

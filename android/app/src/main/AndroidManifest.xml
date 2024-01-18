@@ -1,0 +1,178 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="net.xixian">
+
+    <!--开机启动-->
+    <!--    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />-->
+    <!--允许访问网络的权限-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--悬浮窗的权限-->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!--状态栏的权限-->
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+
+    <!--下面这些事ok http使用到缓存的时候需要用的-->
+    <!--读写存储卡-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!--网络状态权限-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--在SDCard中创建与删除文件权限-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <!--WIFI网络状态信息权限-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--允许读取手机状态的权限-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!--获取设备状态-->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--允许控制振动器的权限-->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!--拨打电话的权限-->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!--允许读取电话薄的权限 -->
+    <!--<uses-permission android:name="android.permission.READ_CONTACTS"/>-->
+    <!--查阅敏感日志数据-->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!--允许写用户联系人的权限-->
+    <!--<uses-permission android:name="android.permission.WRITE_CONTACTS"/>-->
+    <!--修改全局系统设置-->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!--精准的GPS位置-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于提高GPS定位速度 -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <!--基于网络的粗略的位置-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!--修改声音设置-->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!--访问GMail账户列表 -->
+    <!--<uses-permission android:name="android.permission.GET_ACCOUNTS"/>-->
+    <!--闪光灯-->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <!--改变网络状态权限-->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <!--camera-->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!--<uses-permission android:name="android.hardware.camera" />-->
+    <!--<uses-permission android:name="android.hardware.camera.autofocus" />-->
+
+    <!--改变wifi网络状态权限-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <!--指纹验证-->
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <!--发短信-->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!--用户唤醒机器的权限-->
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+
+    <!--添加图标角标权限-->
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
+
+    <uses-permission android:name="com.android.launcher2.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher2.permission.WRITE_SETTINGS" />
+
+    <uses-permission android:name="com.android.launcher3.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher3.permission.WRITE_SETTINGS" />
+
+    <uses-permission android:name="org.adw.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="org.adw.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="org.adwfreak.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="org.adwfreak.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="org.adw.launcher_donut.permission.READ_SETTINGS" />
+    <uses-permission android:name="org.adw.launcher_donut.permission.WRITE_SETTINGS" />
+
+    <uses-permission android:name="com.fede.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.fede.launcher.permission.WRITE_SETTINGS" />
+
+    <uses-permission android:name="com.anddoes.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.anddoes.launcher.permission.WRITE_SETTINGS" />
+
+    <uses-permission android:name="com.android.mylauncher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.mylauncher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.ebproductions.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.ebproductions.android.launcher.permission.WRITE_SETTINGS" />
+
+    <uses-permission android:name="dianxin.permission.ACCESS_LAUNCHER_DATA" />
+
+    <!--for Samsung-->
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+    <!--for htc-->
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+    <!--for huawei-->
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.huawei.launcher2.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.launcher2.permission.WRITE_SETTINGS" />
+    <!--for sony-->
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" />
+    <!--for apex-->
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" />
+    <!--for solid-->
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
+    <!--for ZUK-->
+    <uses-permission android:name="android.permission.READ_APP_BADGE" />
+    <!--for OPPO-->
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" />
+    <!--for EvMe-->
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+    <!--for miui-->
+    <uses-permission android:name="com.miui.mihome2.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.miui.mihome2.permission.WRITE_SETTINGS" />
+    <!--for qihoo360-->
+    <uses-permission android:name="com.qihoo360.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.qihoo360.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="net.qihoo.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="net.qihoo.launcher.permission.WRITE_SETTINGS" />
+    <!--for le-->
+    <uses-permission android:name="com.lge.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.lge.launcher.permission.WRITE_SETTINGS" />
+
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="false"
+        android:allowClearUserData="true"
+        android:icon="@mipmap/icon_app"
+        android:label="${app_name}"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:label">
+
+
+        <activity
+            android:name=".LaunchActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+            android:launchMode="singleTask"
+            android:theme="@style/AppLaunchTheme"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--        <activity-->
+        <!--            android:theme="@style/AppTheme"-->
+        <!--            android:name=".LoginActivity"-->
+        <!--            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"-->
+        <!--            android:launchMode="singleTask"-->
+        <!--            android:windowSoftInputMode="adjustResize" />-->
+
+
+    </application>
+</manifest>

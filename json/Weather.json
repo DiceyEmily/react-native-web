@@ -1,0 +1,31 @@
+{
+    "success": "1",
+    "result": {
+        "weaid": "169",
+        "days": "2021-12-05",
+        "week": "星期日",
+        "cityno": "shenzhen",
+        "citynm": "深圳",
+        "cityid": "101280601",
+        "temperature": "14℃/14℃",
+        "temperature_curr": "18℃",
+        "humidity": "38%",
+        "aqi": "51",
+        "weather": "晴",
+        "weather_curr": "多云",
+        "weather_icon": "http://api.k780.com/upload/weather/d/1.gif",
+        "weather_icon1": "",
+        "wind": "北风",
+        "winp": "2级",
+        "temp_high": "14",
+        "temp_low": "14",
+        "temp_curr": "18",
+        "humi_high": "0",
+        "humi_low": "0",
+        "weatid": "2",
+        "weatid1": "",
+        "windid": "8",
+        "winpid": "2",
+        "weather_iconid": "1"
+    }
+}

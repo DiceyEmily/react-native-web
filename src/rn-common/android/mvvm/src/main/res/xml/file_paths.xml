@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ResourceName">
+
+    <!--代表context.getFilesDir()-->
+    <files-path
+        name="files"
+        path="." />
+
+    <cache-path
+        name="cache"
+        path="." />
+
+    <!--代表context.getExternalFilesDirs()-->
+    <external-files-path
+        name="external_files"
+        path="." />
+
+    <external-cache-path
+        name="external_storage"
+        path="." />
+
+    <!--path设置为root-path解决了FileProvider无法使用外置SD卡的问题-->
+    <root-path
+        name="root-path"
+        path="" />
+
+    <root-path
+        name="camera_photos"
+        path="" />
+
+</paths>

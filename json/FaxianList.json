@@ -1,0 +1,31 @@
+{
+    "code": "0",
+    "data": [
+        {
+            "sntId": 11,
+            "sntUuid": "111",
+            "code": "illness",
+            "name": "时间",
+            "url": "111",
+            "unread": 1
+        },
+        {
+            "sntId": 12,
+            "sntUuid": "1111",
+            "code": "business",
+            "name": "时间11",
+            "url": "11",
+            "unread": 1
+        },
+        {
+            "sntId": 13,
+            "sntUuid": "42A7C71033794BA0851872FE00209A72",
+            "code": "tiaoxiu",
+            "name": "时间11",
+            "url": "111",
+            "unread": 0
+        }
+    ],
+    "msg": "接口请求正确",
+    "total": 0
+}

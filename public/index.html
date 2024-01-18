@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ch">
+
+<head>
+  <style type="text/css">
+    @font-face {
+      font-family: 'MaterialIconsOutlined';
+      font-style: normal;
+      src: url('%PUBLIC_URL%/MaterialIconsOutlined.otf');
+    }
+
+    @font-face {
+      font-family: 'IconXC';
+      font-style: normal;
+      src: url('%PUBLIC_URL%/IconXC.ttf');
+    }
+
+    .css-11aywtz,
+    [class^="css-textinput"] {
+      font-size: 0.875rem;
+    }
+
+    .css-1rynq56,
+    [class^="css-text"] {
+      word-break: break-word;
+      font-size: 0.875rem;
+    }
+
+
+
+    @media only screen and (min-width:321px) and (max-width:414px) {
+
+      html,
+      body {
+        font-size: 16px
+      }
+    }
+
+    @media only screen and (min-width:415px) and (max-width:479px) {
+
+      html,
+      body {
+        font-size: 18px
+      }
+    }
+
+    @media only screen and (min-width:480px) and (max-width:559px) {
+
+      html,
+      body {
+        font-size: 20px
+      }
+    }
+
+    @media only screen and (min-width:560px) and (max-width:639px) {
+
+      html,
+      body {
+        font-size: 22px
+      }
+    }
+
+    @media only screen and (min-width:640px) and (max-width:767px) {
+
+      html,
+      body {
+        font-size: 24px
+      }
+    }
+
+    @media only screen and (min-width:768px)and (max-width:1023px) {
+
+      html,
+      body {
+        font-size: 26px
+      }
+    }
+
+    @media only screen and (min-width:1024px) {
+
+      html,
+      body {
+        font-size: 28px
+      }
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    #root {
+      width: 100%;
+      height: 100%;
+      display: flex;
+    }
+
+    textarea {
+      outline: none;
+    }
+
+    input {
+      outline: none;
+    }
+
+    .loadEffect {
+      width: 60px;
+      height: 60px;
+      left: 46%;
+      top: 35%;
+      position: absolute;
+    }
+
+    .loadEffect div {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      -webkit-animation: load 2.08s linear infinite;
+    }
+
+    .loadEffect div span {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #3975C6;
+      position: absolute;
+      left: 50%;
+      margin-top: -6px;
+      margin-left: -6px;
+    }
+
+    @-webkit-keyframes load {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+
+      10% {
+        -webkit-transform: rotate(45deg);
+      }
+
+      50% {
+        opacity: 1;
+        -webkit-transform: rotate(160deg);
+      }
+
+      62% {
+        opacity: 0;
+      }
+
+      65% {
+        opacity: 0;
+        -webkit-transform: rotate(200deg);
+      }
+
+      90% {
+        -webkit-transform: rotate(340deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+
+    }
+
+    .loadEffect div:nth-child(1) {
+      -webkit-animation-delay: 0.2s;
+    }
+
+    .loadEffect div:nth-child(2) {
+      -webkit-animation-delay: 0.4s;
+    }
+
+    .loadEffect div:nth-child(3) {
+      -webkit-animation-delay: 0.6s;
+    }
+
+    .loadEffect div:nth-child(4) {
+      -webkit-animation-delay: 0.8s;
+    }
+  </style>
+  <!-- photo view 样式 -->
+  %REACT_APP_PHOTO_VIEW_CSS%
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0" />
+  <meta name="theme-color" content="#3975C6" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <!-- <link type="text/css" rel="stylesheet" href="%PUBLIC_URL%/main.css"> -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+  <!-- 微信api.js -->
+  <!-- <script type="text/javascript" src="%PUBLIC_URL%/jweixin-1.6.0.js"></script> -->
+
+  <script>
+    setTimeout(function () {
+      var l = document.getElementById("loadEffect");
+      if (l) {
+        l.className = "loadEffect";
+      }
+    }, 200)
+  </script>
+</head>
+
+<body>
+  <noscript>运行此app需要开启JavaScript！</noscript>
+  <div id="rem_calcu" style="width: 1rem;height: 0rem;"></div>
+  <script>
+    var ele_ = document.getElementById("rem_calcu")
+    if (ele_) {
+      window._rem_size = parseFloat(window.getComputedStyle(ele_).width);
+      ele_.remove()
+    }
+  </script>
+  <div id="root">
+  </div>
+  <div id="loadEffect" class="">
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+  </div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+
+</html>
